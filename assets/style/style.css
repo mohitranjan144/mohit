@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.five {
+    display: flex;
+    flex-direction: row;
+}
+
+.two {
+    background-color: rgb(115, 115, 236);
+    height: 4rem;
+    flex-grow: 1000;
+}
+
+.one {
+    background-color: rgb(139, 139, 130);
+    width: 9rem;
+    height: 100vh;
+    /* flex-grow: 2; */
+}
+
+.three {
+
+}
+
+.four {
+
+}
+
+
+
+.list {
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+.list > li {
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.header-list {
+    list-style-type: none;
+    color: rgb(78, 71, 71);
+    font-size: 2rem;
+}
+
+.header-list > li {
+    display: inline;
+    margin: 2rem;
+    padding: 0;
+}
+
+.side-menu {
+    text-decoration: none;
+    color: brown;
+}
